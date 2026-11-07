@@ -1,190 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A web design portfolio featuring restaurant, cleaning, barbershop and plumbing website projects.">
-    <title>Portfolio | Web Design & Development</title>
+    <meta name="description" content="The Gentleman's Cut — quality haircuts and grooming.">
+    <title>The Gentleman's Cut | Barbershop</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="site-header">
-        <nav class="navbar" aria-label="Main navigation">
-            <a class="wordmark" href="#home">PIXEL<span>CRAFT</span></a>
-            <div class="nav-links">
-                <a href="#work">Work</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </div>
-            <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">THE GENTLEMAN'S CUT</h1>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-        <section class="hero" id="home">
-            <div class="hero-copy">
-                <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR PROJECTS</p>
-                <h1>Thoughtful websites.<br><span>Made to work.</span></h1>
-                <p class="hero-intro">I design and build clear, responsive websites that help businesses make a confident first impression.</p>
-                <div class="hero-actions">
-                    <a class="button button-dark" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-                    <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
-                </div>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">FRESH CUTS. CLASSIC STYLE.</p>
+                <h2>LOOK SHARP.<br>FEEL CONFIDENT.</h2>
+                <p>Quality cuts and professional grooming in a relaxed atmosphere.</p>
+                <a href="#contact" class="button">BOOK AN APPOINTMENT</a>
             </div>
-            <div class="hero-note" aria-hidden="true">
-                <span>DESIGN</span>
-                <span class="note-star">✳</span>
-                <span>DEVELOPMENT</span>
-            </div>
-            <div class="hero-index" aria-hidden="true">01 / 03</div>
         </section>
 
-        <section class="work-section section-wrap" id="work">
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow">SELECTED WORK · 2026</p>
-                    <h2>Websites built with purpose.</h2>
-                </div>
-                <p class="section-aside">A collection of business websites, each shaped around its own character.</p>
-            </div>
+        <section id="services" class="services">
+            <p class="eyebrow">WHAT WE OFFER</p>
+            <h2>OUR SERVICES</h2>
 
-            <article class="project-card">
-                <a class="project-preview" href="../index.html" aria-label="View the FlowFix Plumbing website">
-                    <div class="preview-browser">
-                        <div class="browser-bar">
-                            <span class="browser-dots"><i></i><i></i><i></i></span>
-                            <span class="browser-url">flowfix-plumbing.com</span>
-                            <span class="browser-menu">•••</span>
-                        </div>
-                        <div class="preview-page">
-                            <div class="preview-nav">
-                                <b>FLOWFIX PLUMBING</b>
-                                <span>Home&nbsp;&nbsp;&nbsp; Services&nbsp;&nbsp;&nbsp; About</span>
-                            </div>
-                            <div class="preview-content">
-                                <p>YOUR LOCAL PLUMBING SPECIALISTS</p>
-                                <h3>PLUMBING PROBLEMS?<br>WE'VE GOT YOU COVERED.</h3>
-                                <span class="preview-button">REQUEST A QUOTE&nbsp; ↗</span>
-                            </div>
-                            <div class="preview-shape shape-one"></div>
-                            <div class="preview-shape shape-two"></div>
-                        </div>
-                    </div>
-                    <span class="preview-open">VIEW LIVE PROJECT <span aria-hidden="true">↗</span></span>
-                </a>
-                <div class="project-info">
-                    <div class="project-title">
-                        <p class="project-number">01 — SERVICE BUSINESS WEBSITE</p>
-                        <h3>FlowFix Plumbing</h3>
-                        <p class="project-description">A clear, approachable web presence for a local plumbing service, designed to make it easy for customers to explore services and get in touch.</p>
-                        <div class="tags"><span>Web design</span><span>Responsive layout</span><span>HTML &amp; CSS</span></div>
-                    </div>
-                    <a class="project-link" href="../index.html" aria-label="Open the FlowFix Plumbing website">↗</a>
-                </div>
-            </article>
-
-            <div class="project-gallery">
-                <article class="gallery-card">
-                    <div class="gallery-preview restaurant-preview" aria-hidden="true">
-                        <div class="mini-browser-bar"><span></span><span></span><span></span><b>oliveandoak.co</b></div>
-                        <div class="restaurant-page">
-                            <div class="restaurant-nav"><b>OLIVE &amp; OAK</b><span>Menu&nbsp;&nbsp; Our Story&nbsp;&nbsp; Contact</span></div>
-                            <div class="restaurant-hero">
-                                <span>FRESH · LOCAL · SEASONAL</span>
-                                <b>GOOD FOOD.<br>GREAT MOMENTS.</b>
-                                <i>Discover dishes made with care.</i>
-                                <strong>EXPLORE OUR MENU</strong>
-                            </div>
-                            <div class="restaurant-menu"><b>OUR MENU</b><div><i>Grilled Chicken</i><i>Classic Beef Burger</i><i>Roasted Vegetable Pasta</i><i>Chocolate Brownie</i></div></div>
-                        </div>
-                    </div>
-                    <div class="gallery-info">
-                        <p class="project-number">02 — RESTAURANT WEBSITE</p>
-                        <h3>Olive &amp; Oak</h3>
-                        <p>A warm, elegant restaurant experience that puts the menu and memorable dining front and center.</p>
-                        <div class="tags"><span>Hospitality</span><span>Menu design</span></div>
-                    </div>
+            <div class="service-list">
+                <article class="service-card">
+                    <h3>Classic Haircut</h3>
+                    <p>A clean, stylish haircut tailored to you.</p>
+                    <p class="price">£15</p>
                 </article>
 
-                <article class="gallery-card">
-                    <div class="gallery-preview cleaning-preview" aria-hidden="true">
-                        <div class="mini-browser-bar"><span></span><span></span><span></span><b>sparklecleaning.co</b></div>
-                        <div class="cleaning-page">
-                            <div class="cleaning-nav"><b>SPARKLE CLEANING CO.</b><span>Home&nbsp;&nbsp; Services&nbsp;&nbsp; About</span></div>
-                            <div class="cleaning-hero"><span>A FRESHER SPACE STARTS HERE</span><b>LET US MAKE YOUR<br>SPACE SHINE.</b><i>Reliable cleaning for homes and workplaces.</i><strong>GET A FREE QUOTE</strong></div>
-                            <div class="cleaning-services"><b>OUR CLEANING SERVICES</b><div><i>Home Cleaning</i><i>Office Cleaning</i><i>Deep Cleaning</i></div></div>
-                        </div>
-                    </div>
-                    <div class="gallery-info">
-                        <p class="project-number">03 — CLEANING SERVICE WEBSITE</p>
-                        <h3>Sparkle Cleaning Co.</h3>
-                        <p>A bright, welcoming service site that makes it simple to explore cleaning options and request a quote.</p>
-                        <div class="tags"><span>Local business</span><span>Lead generation</span></div>
-                    </div>
+                <article class="service-card">
+                    <h3>Skin Fade</h3>
+                    <p>A sharp fade with a fresh finish.</p>
+                    <p class="price">£20</p>
                 </article>
 
-                <article class="gallery-card">
-                    <div class="gallery-preview barber-preview" aria-hidden="true">
-                        <div class="mini-browser-bar barber-bar"><span></span><span></span><span></span><b>thegentlemanscut.co</b></div>
-                        <div class="barber-page">
-                            <div class="barber-nav"><b>THE GENTLEMAN'S CUT</b><span>Home&nbsp;&nbsp; Services&nbsp;&nbsp; About</span></div>
-                            <div class="barber-hero"><span>FRESH CUTS. CLASSIC STYLE.</span><b>LOOK SHARP.<br>FEEL CONFIDENT.</b><i>Quality cuts in a relaxed atmosphere.</i><strong>BOOK AN APPOINTMENT</strong></div>
-                            <div class="barber-services"><b>OUR SERVICES</b><div><i>Classic Haircut</i><i>Skin Fade</i><i>Beard Trim</i></div></div>
-                        </div>
-                    </div>
-                    <div class="gallery-info">
-                        <p class="project-number">04 — BARBERSHOP WEBSITE</p>
-                        <h3>The Gentleman's Cut</h3>
-                        <p>A confident, classic identity for a barbershop, with services and appointment booking in focus.</p>
-                        <div class="tags"><span>Barbershop</span><span>Dark theme</span></div>
-                    </div>
-                </article>
-
-                <article class="gallery-card">
-                    <div class="gallery-preview cooling-preview" aria-hidden="true">
-                        <div class="mini-browser-bar cooling-bar"><span></span><span></span><span></span><b>coolbreeze-ac.co</b></div>
-                        <div class="cooling-page">
-                            <div class="cooling-nav"><b>COOLBREEZE</b><span>Home&nbsp;&nbsp; Services&nbsp;&nbsp; About</span></div>
-                            <div class="cooling-hero"><span>COMFORT IN EVERY SEASON</span><b>STAY COOL.<br>STAY COMFORTABLE.</b><i>Professional air conditioning for homes and businesses.</i><strong>REQUEST A QUOTE</strong></div>
-                            <div class="cooling-services"><b>OUR SERVICES</b><div><i>AC Installation</i><i>AC Repairs</i><i>Maintenance</i><i>Commercial Cooling</i></div></div>
-                        </div>
-                    </div>
-                    <div class="gallery-info">
-                        <p class="project-number">05 — AIR CONDITIONING WEBSITE</p>
-                        <h3>CoolBreeze</h3>
-                        <p>A crisp service-business site presenting installation, repair and maintenance options with a clear quote request.</p>
-                        <div class="tags"><span>Home services</span><span>Lead generation</span></div>
-                    </div>
+                <article class="service-card">
+                    <h3>Beard Trim</h3>
+                    <p>Neat shaping and grooming for your beard.</p>
+                    <p class="price">£10</p>
                 </article>
             </div>
         </section>
 
-        <section class="about-section" id="about">
-            <div class="section-wrap about-grid">
-                <div>
-                    <p class="eyebrow">A BIT ABOUT ME</p>
-                    <h2>Good work starts<br>with a good <span>conversation.</span></h2>
-                </div>
-                <div class="about-copy">
-                    <p>I’m a web designer and developer who enjoys turning ideas into useful, welcoming online experiences. I care about thoughtful details, accessible design, and sites that work just as well on a phone as they do on a desktop.</p>
-                    <a class="text-link" href="#contact">More about working together <span aria-hidden="true">↗</span></a>
-                </div>
+        <section id="about" class="about">
+            <div>
+                <p class="eyebrow">ABOUT OUR SHOP</p>
+                <h2>MORE THAN JUST A HAIRCUT</h2>
+                <p>
+                    At The Gentleman's Cut, we believe everyone deserves
+                    to leave the barbershop feeling confident.
+                    Our fictional shop is built around great service,
+                    attention to detail and classic barbering style.
+                </p>
             </div>
         </section>
 
-        <section class="contact-section section-wrap" id="contact">
-            <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
-            <div class="contact-row">
-                <h2>Let’s make<br>something <span>great.</span></h2>
-                <a class="contact-button" href="mailto:oakinlayoaina@gmail.com">oakinlayoaina@gmail.com <span aria-hidden="true">↗</span></a>
-            </div>
+        <section id="contact" class="contact">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>READY FOR A FRESH CUT?</h2>
+            <p>Contact us to arrange your appointment.</p>
+            <a href="mailto:hello@example.com" class="button">CONTACT THE BARBERSHOP</a>
+            <p class="small-note">Demo contact address — replace before using this as a real business website.</p>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <a class="wordmark" href="#home">PIXEL<span>CRAFT</span></a>
-        <p>Designed with care · © 2026</p>
-        <a href="#home">Back to top ↑</a>
+    <footer>
+        <p>&copy; 2026 The Gentleman's Cut. Demo website.</p>
     </footer>
+
 </body>
 </html>
